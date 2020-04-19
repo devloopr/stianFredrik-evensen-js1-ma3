@@ -79,4 +79,4 @@ fetch(gamesUrl)
     const gamesRating = json.rating;
     ratingCont.innerText = gamesRating;
   })
-  .catch((error) => console.dir(error));
+  .catch((error) => console.log(error));
